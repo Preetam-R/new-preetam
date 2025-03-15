@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container{
+    width: 100%;
+    max-width: 900px;
+}
+
+.profile-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background:linear-gradient(45deg, rgba(237, 141, 14, 0.928),rgb(104, 43, 158));
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.left-section{
+    width: 35%;
+    
+  flex-direction: column;
+    background: linear-gradient(135deg,rgba(240, 141, 48, 0.936),rgb(104, 56, 250),rgba(249, 118, 53, 0.923));
+    color: white;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.profile-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.role{
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.social-media{
+    display: inline-block;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.right-section {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    padding: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.Skill{
+    margin-bottom: 15px;
+}
+
+.progress{
+    height: 8px;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress div{
+    height: 100%;
+    background: black;
+}
+
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 5px;
+}
+
